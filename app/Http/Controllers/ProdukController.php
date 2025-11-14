@@ -22,7 +22,7 @@ class ProdukController extends Controller
     public function show(Produk $produk)
     {
         
-        return view('Detailproduk', [
+        return view('DetailProduk', [
             'produk' => $produk
         ]);
     }
